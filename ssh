@@ -1,0 +1,7 @@
+#to check if the ssh agent is running,
+eval "$(ssh-agent -s)"
+
+#also mess with ssh-agent -s
+
+#to start the ssh agent,
+ssh-add ~/.ssh/<private_id>
