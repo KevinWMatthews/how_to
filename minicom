@@ -1,0 +1,7 @@
+minicom
+
+Launch:
+	sudo minicom
+
+Help:
+	^A Z

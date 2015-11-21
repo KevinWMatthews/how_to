@@ -1,0 +1,17 @@
+to_learn
+
+PBX
+PoE
+cat 5/cat 6 patch cables/crossover
+u-law (mu-law)
+companding (compression/expanding)
+SIP (Session Initiation Protocol)
+
+create your own tftp server
+remember to use file
+
+dtmfmode
+	event
+	tone
+
+URI

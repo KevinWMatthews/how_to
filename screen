@@ -1,0 +1,42 @@
+screen
+
+Screen allows you to run multiple terminals from the same window.
+
+Our control command is Ctrl-t (^T) instead of Ctrl-a (because minicom [?] uses Ctrl-a)
+
+Launch:
+	screen
+
+Create a new window:
+	"^T" "c"
+
+Toggle between windows:
+	"^T" sp
+	"^T" "n"
+
+Detach (and return to standard terminal):
+	"^T" "d"
+
+Reattach (when you're in a standard terminal):
+	screen -r
+
+Exit a single window:
+	exit (DUH)
+
+Exit screen:
+	"^T" K (k doesn't work)
+
+List all screens:
+	"^T" "  (double quote)
+
+Select a window by its number:
+	"^T" 0-9
+
+Rename the current screen:
+	"^T" A
+
+To scroll, enter copy mode:
+	"^T" Esc
+	Then up, down, PageUp, PageDown, and so on.
+	Tab, Esc to exit copy mode, or
+	Hit Esc twice (this method messes up the arrow keys)
