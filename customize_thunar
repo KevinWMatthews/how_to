@@ -1,0 +1,24 @@
+http://askubuntu.com/questions/403922/keyboard-shortcut-for-thunar-custom-actions
+    Added Alt+t to open a new terminal.
+Open /home/username/.config/Thunar/accels.scm
+This shows a list of all shortcuts, I think.
+
+Open /home/username/.config/Thunar/uca.xml
+This shows all existing custom actions.
+The Launch Terminal command has a unique-id of 1446650854989846
+Search for this in accels.scm
+Remove leading ';'
+In the final parenthesis, add the hotkey combination.
+
+Save the file.
+
+Close ALL your work and all Thunar windows!
+
+xfce4-session-logout --logout
+
+You'll log in again and the new hotkey will be active.
+
+
+
+To switch between tabs, use Ctrl+Alt+PageUp/PageDown.
+Apparently "the underlying GTK control" (GtkNotebook) controls switching tabs; Thunar does not.

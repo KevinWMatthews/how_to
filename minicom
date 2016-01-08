@@ -3,5 +3,18 @@ minicom
 Launch:
 	sudo minicom
 
+Attach a different device
+    sudo minicom --device </path/to/device>
+    sudo minicom --device /dev/ttyUSB0
+
+For example, to find a USB device:
+#Display names of all usb devices
+lsusb
+
+#Devices are located in /dev as ttyUSB<n>
+ls /dev/tty*
+    or
+ls /dev/ttyUSB*
+
 Help:
 	^A Z

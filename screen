@@ -14,12 +14,6 @@ Toggle between windows:
 	"^T" sp
 	"^T" "n"
 
-Detach (and return to standard terminal):
-	"^T" "d"
-
-Reattach (when you're in a standard terminal):
-	screen -r
-
 Exit a single window:
 	exit (DUH)
 
@@ -40,3 +34,21 @@ To scroll, enter copy mode:
 	Then up, down, PageUp, PageDown, and so on.
 	Tab, Esc to exit copy mode, or
 	Hit Esc twice (this method messes up the arrow keys)
+
+Can set the scrollback history either at startup with the option:
+	-h <num>
+or by editing ~/.screenrc
+	defscrollback <num>
+
+
+	~~~ Attach/Detach
+Detach (and return to standard terminal):
+	"^T" "d"
+
+Reattach (when you're in a standard terminal):
+	screen -r
+
+Discover all active screen sessions:
+	screen -ls
+		or
+	screen -list
