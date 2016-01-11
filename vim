@@ -1,4 +1,4 @@
-key mappings
+    ~~~ Key Mappings ~~~
 
 :map        recursive map.
 :noremap    non-recursive map
@@ -27,3 +27,9 @@ l   insert, command-line, regexp-search, .... Lang-Arg pseudomode?
 
 :map affects nvo
 :map! affects ic
+
+
+
+    ~~~ Helptags ~~~
+I ran :helptags ~/.vim/doc to install helptags.
+Actually, this run Pathogen's Helptags command, which searches through the bundle folder and installs helptags for all of the packages that I have installed.
