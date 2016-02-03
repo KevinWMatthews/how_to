@@ -1,0 +1,5 @@
+launch_programs
+
+Mapped Ctrl+Alt+T to /usr/bin/gnome-terminal --window --maximize
+[Mapped Ctrl+Alt+S to /usr/bin/subl --window --maximize]
+*edit changed /usr/bin/subl to include the maximize flag*
