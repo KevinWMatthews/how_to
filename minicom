@@ -18,3 +18,12 @@ ls /dev/ttyUSB*
 
 Help:
 	^A Z
+
+Fancy buffer scrolling:
+    ^A B
+
+Quit:
+    ^A Q
+
+If the tty is locked, execute
+    sudo rm /var/lock/LCK..tty<device>
